@@ -62,7 +62,7 @@ subprocess.run(f'{mp4decrypt} --show-progress {keys} encrypted.m4a decrypted.m4a
 subprocess.run(f'{mp4decrypt} --show-progress {keys} encrypted.mp4 decrypted.mp4', shell=True)  
 
 print("Merging .....")
-subprocess.run([mkvmerge, '--ui-language' ,'en_US', '--output', output +'.mkv', '--language', '0:eng', '--track-name', '0:Pipe-HD', '--default-track', '0:yes', '--compression', '0:none', 'decrypted.mp4', '--language', '0:eng', '--track-name', '0:Pipe-HD', '--default-track', '0:yes', '--compression' ,'0:none', 'decrypted.m4a','subtitle.may.srt'])
+subprocess.run([mkvmerge, '--ui-language' ,'en_US', '--output', output +'.mkv', '--language', '0:eng', '--track-name', '0:Pipe-HD', '--default-track', '0:yes', '--compression', '0:none', 'decrypted.mp4', '--language', '0:eng', '--track-name', '0:Pipe-HD', '--default-track', '0:yes', '--compression' ,'0:none', 'decrypted.m4a'])
 print("\nAll Done .....")    
 
 print("\nDo you want to delete the Encrypted Files : Press 1 for yes , 2 for no")
