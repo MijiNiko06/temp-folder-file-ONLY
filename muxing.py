@@ -7,7 +7,7 @@ import pyfiglet
 from rich import print
 from typing import DefaultDict
 
-title = pyfiglet.figlet_format('Muxing Script', font='slant')
+title = pyfiglet.figlet_format('Muxing Script (For muxing dubs)', font='slant')
 print(f'[red]{title}[/red]')
 print("by Miji-Desu")
 
@@ -15,7 +15,7 @@ mkvmerge = './mkvmerge'
 
 video = input("\nEnter Video Filename : ")
 audio = input("\nEnter Audio Filename : ")
-output = input("\nSpecify Output Filename (without .mkv : ")
+output = input("\nSpecify Output Filename (without .mkv) : ")
 
 print("Merging .....")
 subprocess.run([mkvmerge, '--ui-language' ,'en_US', '--output', output +'.mkv', '--language', '0:eng', '--track-name', '0:Pipe-HD', '--default-track', '0:yes', '--no-audio', '--compression', '0:none', video, '--language', '0:eng', '--track-name', '0:Pipe-HD', '--default-track', '0:yes', '--compression' ,'0:none', audio])
