@@ -1,4 +1,4 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=47a1206b44822c89320e70916cf57b0c:e040ca2aa426df789ba384ba561891b4
 #EXTINF:-1 tvg-id="NTV7" ch-number="107" group-title="myFreeview" tvg-logo="https://didik.tv/images/logotv2.png",DidikTV FHD 1080
-https://unifi-live03.secureswiftcontent.com/UnifiHD/live06.mpd
+https://unifi-live01.secureswiftcontent.com/UnifiHD/live06.mpd
