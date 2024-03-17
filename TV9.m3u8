@@ -1,4 +1,4 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1dfa8a645af41e83c520bddf913934ca:65f6af8750d24b230d91b984237ac1e4
 #EXTINF:-1 tvg-id="TV9" ch-number="109" group-title="myFreeview" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/TV9_%28Malaysia%29_logo.svg/1632px-TV9_%28Malaysia%29_logo.svg.png",TV9 FHD 1080
-https://unifi-live03.secureswiftcontent.com/UnifiHD/live09.mpd
+https://unifi-live01.secureswiftcontent.com/UnifiHD/live09.mpd
