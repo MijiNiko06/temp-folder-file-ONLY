@@ -1,4 +1,4 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3afe30ee4ea24a67fe5a2ef06e83db0b:27a2f71d87bf5eb105af096fb6605d97
 #EXTINF:-1 tvg-id="TV3" ch-number="103" group-title="myFreeview" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/TV3_%28Malaysia%29.svg/2560px-TV3_%28Malaysia%29.svg.png",TV3 FHD 1080
-https://unifi-live03.secureswiftcontent.com/UnifiHD/live03.mpd
+https://unifi-live01.secureswiftcontent.com/UnifiHD/live03.mpd
